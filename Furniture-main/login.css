@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background: #EADDCA; /* Background color */
+    display: flex;
+    justify-content: center; /* Center the combined container */
+    align-items: center;
+    min-height: 100vh; /* Full height of the viewport */
+    font-family: 'Kanit', sans-serif; /* Ensure consistent font usage */
+}
+
+.combined-container {
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Align logo and form vertically */
+    border: 2px solid black; /* Black border around the combined container */
+    border-radius: 25px; /* Rounded corners */
+    padding: 40px; /* Increased padding for more space */
+    background-color: #EADDCA; /* Match background color */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+
+.logo {
+    width: 400px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 50px; /* Space between logo and login container */
+}
+
+.login-container {
+    width: 100%; /* Full width available */
+    max-width: 600px; /* Increased max-width for a wider container */
+    padding: 30px; /* Padding for better spacing */
+    text-align: left; /* Align text to the left for better readability */
+}
+
+.login-title {
+    text-align: center; /* Center the login title */
+}
+
+.welcome-message {
+    text-align: center; /* Center the welcome message */
+    margin: 15px 0 30px; /* Space above and below the message */
+}
+
+/* Styles for labels, input fields, and buttons */
+.email-label, .password-label {
+    font-weight: 400; /* Regular weight */
+    margin-bottom: 5px; /* Space below labels */
+    display: block; /* Labels on their own line */
+}
+
+.frame1, .frame2 {
+    width: 100%; /* Full width input */
+    height: 55px; /* Increased height for input fields */
+    border-radius: 25px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below inputs */
+    padding: 0 20px; /* Padding inside inputs */
+    border: 2px solid black; /* Black border for inputs */
+    background: #FFFFFF; /* White background for inputs */
+}
+
+.frame1:focus, .frame2:focus {
+    border-color: black; /* Border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.frame3 {
+    width: 100%; /* Full width button */
+    height: 55px; /* Increased height for button */
+    background: #90604C; /* Button background color */
+    color: #FFFFFF; /* Button text color */
+    font-weight: 800; /* Bold button text */
+    cursor: pointer; /* Pointer cursor */
+    border: 2px solid black; /* Black border for button */
+    border-radius: 25px; /* Rounded corners */
+}
+
+.frame3:active {
+    background-color: #704236; /* Darker shade when clicked */
+}
+
+.forgot-password {
+    font-weight: 300; /* Light font weight */
+    color: #90604C; /* Link color */
+    text-decoration: underline; /* Underline for link */
+    margin-top: 15px; /* Space above the link */
+    display: block; /* Ensure it takes full line width */
+    text-align: center; /* Center the link below the button */
+}
